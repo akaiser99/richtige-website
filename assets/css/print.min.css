@@ -1,0 +1,1 @@
+@media print{body{font-size:1.25em}div.presentation{min-height:200px;height:200px;background-image:none;padding-top:0}div.logo-and-nav-mobile,div#nav-content,a#gotop{display:none;visibility:hidden}h1,.h1{font-size:2.5rem}h2,.h2{font-size:2rem}h3,.h3{font-size:1.8rem}h4{font-size:1.6rem}h5{font-size:1.4rem}h6{font-size:1.3rem}}
