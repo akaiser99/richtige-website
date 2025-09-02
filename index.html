@@ -121,12 +121,13 @@
     />
     <style>
      .presentation {
-  /* Bild nicht mehr als Hintergrund einfügen */
-  background-color: #000;   /* oder löschen, wenn kein Hintergrund nötig */
-  text-align: center;
+  background-image: url(images/Stuttgart_-_Dillmannstraße_19.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 680px;
   position: relative;
 }
-
 .presentation:before {
   content: "";
   position: absolute;
@@ -207,15 +208,15 @@
   <body>
     <header>
       <div class="presentation df am ac home-presentation">
-  <img src="images/Stuttgart_-_Dillmannstraße_19.jpg"
-       alt="Praxis Dillmannstraße 19"
-       style="width:100%; height:auto; display:block;">
-  <div class="presentation-content">
-    <h1>Psychotherapeutische Privatpraxis<br />Giesecke&#8209;Kaiser</h1>
-    <p>Dr. med. Friederike Giesecke-Kaiser<br />Fachärztin für Psychosomatik und Psychotherapie<br /></p>
-  </div>
-</div>
+        <div class="presentation-content">
+          <h1>Psychotherapeutische Privatpraxis<br />Giesecke&#8209;Kaiser</h1>
 
+          <p>
+		    Dr. med. Friederike Giesecke-Kaiser<br />
+            Fachärztin für Psychosomatik und Psychotherapie<br />
+          </p>
+        </div>
+      </div>
 
       <div class="logo-and-nav-mobile big-space df between am logo-text">
         <a href="https://www.giesecke-kaiser.de"> Start </a>
